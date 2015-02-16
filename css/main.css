@@ -387,7 +387,7 @@ a, p, h1, h2, h3, h4 {
 
 p {
   font-family: "Droid Serif", serif;
-  font-size: 0.875em;
+  font-size: 1em;
   color: #0f3751; }
 
 h3 {
@@ -500,6 +500,131 @@ nav {
       display: block;
       width: 100%;
       margin-top: 40px; }
+
+.page-title {
+  margin: 60px auto;
+  width: 30%;
+  padding: 20px 0;
+  position: relative; }
+  .page-title h1 {
+    color: #0f3751;
+    text-align: center; }
+  @media screen and (max-width: 1280px) {
+    .page-title {
+      width: 40%; } }
+  .page-title :before {
+    width: 100%;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    width: calc(100% + 40px);
+    height: 2px;
+    left: -20px;
+    background-color: #aab18d; }
+  .page-title :after {
+    width: 2px;
+    position: absolute;
+    background-color: #aab18d;
+    height: calc(100% + 40px);
+    right: 0;
+    top: -20px;
+    content: ""; }
+  .page-title .page-title2 :before {
+    width: 2px;
+    position: absolute;
+    background-color: #aab18d;
+    height: calc(100% + 40px);
+    left: 0;
+    top: -20px;
+    content: ""; }
+  .page-title .page-title2 :after {
+    width: 100%;
+    position: absolute;
+    content: "";
+    top: 0;
+    width: calc(100% + 40px);
+    height: 2px;
+    left: -20px;
+    background-color: #aab18d; }
+
+.sub-page-intro {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  line-height: 20pt; }
+
+.grid-system {
+  margin-bottom: 60px; }
+  .grid-system h3 {
+    padding: 0 20px;
+    height: 92px;
+    width: 100%;
+    border: 2px solid #0f3751;
+    background-color: #0f3751;
+    color: white;
+    margin-bottom: 20px;
+    line-height: 92px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+  .grid-system h2 {
+    font-size: 2em;
+    color: #0f3751;
+    border-bottom: 2px solid #aab18d;
+    margin-bottom: 20px;
+    text-align: center; }
+  .grid-system h3.long {
+    line-height: 1.5em;
+    padding-top: 7px; }
+  .grid-system h3:last-child {
+    margin-bottom: 0; }
+
+.links h3 {
+  line-height: 70px; }
+.links h3:hover {
+  background-color: white;
+  color: #0f3751;
+  cursor: pointer; }
+  .links h3:hover svg {
+    fill: #0f3751; }
+.links .h3-active {
+  background-color: white;
+  color: #0f3751; }
+  .links .h3-active svg {
+    fill: #0f3751; }
+.links h3 {
+  height: 70px;
+  position: relative; }
+  .links h3 svg {
+    width: 35px;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    height: auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    fill: white; }
+.links p {
+  margin-bottom: 20px;
+  display: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+
+.svg-rotate svg {
+  transform: rotate(180deg); }
+
+.image-container .grid-25 img {
+  width: 100%;
+  height: auto; }
+
+.rotate {
+  transform: rotate(180deg); }
 
 /*!////////////////////////////////////////////////
 // Home section
@@ -649,6 +774,14 @@ nav {
     #owl-demo .item img {
       width: 100%; } }
 
+#owl-demo2 .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+#owl-demo2 .item {
+  margin: 10px; }
+
 .home_helped {
   background-color: #cccccc;
   margin-top: 80px;
@@ -681,6 +814,21 @@ nav {
     padding: 0 80px; }
     .testimonial p span {
       font-style: italic; }
+
+.ul-container {
+  color: #0f3751;
+  font-size: 1em;
+  margin-bottom: 60px; }
+  .ul-container .grid-2 {
+    border: 2px solid #aab18d;
+    padding: 20px;
+    height: 180px; }
+  .ul-container ul {
+    margin-left: 40px; }
+  .ul-container span {
+    text-align: center; }
+  .ul-container li {
+    list-style-type: square; }
 
 /*!////////////////////////////////////////////////
 // Footer

@@ -7,7 +7,21 @@ $(document).ready(function() {
             }); 
 });
 
+$(document).ready(function() {
+            $("#owl-demo2").owlCarousel({
+                        autoPlay: 3000,      
+                        items : 4,
+                        itemsDesktop : [1199,3],      
+                        itemsDesktopSmall : [979,3]         
+            }); 
+});
 
+
+$(".dropdown-container").click(function(){
+    $(this).next('p').toggle();
+    $(this).toggleClass('svg-rotate');
+    $(this).toggleClass('h3-active');
+});
 
 (function(){
 

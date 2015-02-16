@@ -38,7 +38,7 @@ a, p, h1, h2, h3, h4 {
 
 p {
 	font-family: $font-body;
-	font-size: em(14px,$font-size);
+	font-size: em(16px,$font-size);
 	color: $blue;
 }
 
@@ -188,6 +188,169 @@ nav {
 
 }
 
+.page-title {
+	margin: 60px auto;
+	width: 30%;
+	padding: 20px 0;
+	position: relative;
+
+	h1 {
+		color: $blue;
+		text-align: center;
+	}
+
+	@media screen and (max-width:1280px) {
+		width: 40%;
+	}
+
+	:before {
+		width: 100%;
+		position: absolute;
+		content: "";
+		bottom: 0;
+		width: calc(100% + 40px);
+		height: 2px;
+		left: -20px;
+		background-color: $gold;
+	}
+
+	:after {
+		width: 2px;
+		position: absolute;
+		background-color: $gold;
+		height: calc(100% + 40px);
+		right: 0;
+		top: -20px;
+		content: "";
+	}
+
+	.page-title2 {
+		:before {
+			width: 2px;
+			position: absolute;
+			background-color: $gold;
+			height: calc(100% + 40px);
+			left: 0;
+			top: -20px;
+			content: "";
+		}
+
+		:after {
+			width: 100%;
+			position: absolute;
+			content: "";
+			top: 0;
+			width: calc(100% + 40px);
+			height: 2px;
+			left: -20px;
+			background-color: $gold;
+		}
+	}
+}
+
+.sub-page-intro {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	padding-bottom: 60px;
+	line-height: 20pt;
+}
+
+.grid-system {
+	margin-bottom: 60px;
+	h3 {
+		padding: 0 20px;
+		height: 92px;
+		width: 100%;
+		border: 2px solid $blue;
+		background-color: $blue;
+		color: white;
+		margin-bottom: 20px;
+		line-height: 92px;
+		@include prefix(transition, all 0.3s ease-in-out);
+	}
+
+	h2 {
+		font-size: em(32px,$font-size);
+		color: $blue;
+		border-bottom: 2px solid $gold;
+		margin-bottom: 20px; 
+		text-align: center;
+	}
+
+	h3.long {
+		line-height: 1.5em;
+padding-top: 7px;
+	}
+
+	h3:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.links {
+
+	h3 {
+		line-height: 70px;
+	}
+	h3:hover {
+		background-color: white;
+		color: $blue; 
+		cursor: pointer;
+
+		svg {
+			fill:$blue;
+		}
+	}
+
+	.h3-active {
+				background-color: white;
+		color: $blue; 
+
+		svg {
+			fill: $blue;
+		}
+	}
+
+	h3 {
+		height: 70px;
+		position: relative;
+
+		svg {
+			width: 35px;
+			position: absolute;
+			right: 20px;
+			top: 14px;
+			height: auto;
+			@include prefix(transition, all 0.3s ease-in-out);
+			fill:white;
+		}
+
+
+	}
+
+			p {
+			margin-bottom: 20px;
+			display: none;
+			@include prefix(transition, all 0.3s ease-in-out);
+		}
+
+
+}
+.svg-rotate svg{
+			transform: rotate(180deg);
+		}
+.image-container {
+	.grid-25 {
+		img {
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+.rotate {
+	transform: rotate(180deg);
+}
 /*!////////////////////////////////////////////////
 // Home section
 /////////////////////////////////////////////////*/
@@ -375,6 +538,19 @@ nav {
 	}
 }
 
+#owl-demo2 .item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#owl-demo2 {
+	.item {
+		margin: 10px;
+	}
+}
+
+
 .home_helped {
 	background-color: $grey;
 	margin-top:80px;
@@ -418,6 +594,28 @@ nav {
 		span {
 			font-style: italic;
 		}
+	}
+}
+
+.ul-container {
+	color:$blue;
+	font-size: em(16px,$font-size);
+	margin-bottom: 60px;
+
+	.grid-2 {
+		border:2px solid $gold;
+		padding: 20px;
+		height: 180px;
+	}
+	ul {
+		margin-left: 40px;
+	}
+	span {
+		text-align: center;
+	}
+
+	li {
+		list-style-type: square;
 	}
 }
 
