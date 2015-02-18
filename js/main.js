@@ -42,3 +42,15 @@ $(".dropdown-container").click(function(){
 })();
 
 
+$(".hamburger").click(function(){
+  $("nav").toggle(400);
+});
+
+$(window).resize(function(){  
+    var w = $(window).width();
+    menu        = $('nav');
+
+    if(w > 320 && menu.is(':hidden')) {  
+        menu.removeAttr('style');  
+    }  
+});   

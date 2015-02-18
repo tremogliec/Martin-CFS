@@ -11,13 +11,6 @@
 	background-color: gray;
 }
 
-.container {
-	max-width: 100%;
-	width: 1200px;
-	height: auto;
-	margin:  0 auto;
-}
-
 $blue: #0f3751;
 $grey: #cccccc;
 $gold: #aab18d;
@@ -29,6 +22,10 @@ $font-body: 'Droid Serif', serif;
 a {
 	text-decoration: none;
 	color: $gold;
+	@include prefix(transition, all 0.3s ease-in-out);
+}
+
+svg {
 	@include prefix(transition, all 0.3s ease-in-out);
 }
 
@@ -67,6 +64,7 @@ h1, h2 {
 /////////////////////////////////////////////////*/
 .header {
 	margin: 20px 0;
+	position: relative;
 }
 
 .logo {
@@ -81,11 +79,27 @@ h1, h2 {
 
 	h3 {
 		color: $blue;
+
+		@media screen and (max-width:421px) {
+			font-size: 1.25em;
+			position: absolute;
+top: 0;
+right: 10px;
+		}
 	}
 }
 
 nav {
 	margin-top: 20px;
+	@media screen and (max-width:878px) {
+		display: none;
+	}
+	@media screen and (max-width:1045px) {
+		text-align: center;
+	}
+	@media screen and (max-width:878px) {
+		text-align: left;
+	}
 	a {
 		color: $blue;
 		padding: 5px 26px;
@@ -94,6 +108,20 @@ nav {
 		border-right: 2px solid $light-grey;
 		border-bottom: 2px solid white;
 		text-align: center;
+
+		@media screen and (max-width:1215px) {
+			padding:5px 1.5%;
+		}
+
+		@media screen and (max-width:1045px) {
+			padding: 5px 1%;
+		}
+
+		@media screen and (max-width:878px) {
+			border-right: none;
+			text-align: left;
+			display: block;
+		}
 	}
 
 	:last-child {
@@ -102,7 +130,43 @@ nav {
 
 	:hover {
 		border-bottom: 2px solid $gold;
+
+		@media screen and (max-width:878px) {
+			background-color: $blue;
+			color: white;
+			border-bottom: 2px solid white;
+		}
 	}
+}
+
+	.hamburger {
+		display: none;
+		@media screen and (max-width:878px) {
+			display: inline-block;
+			position:absolute;
+			bottom: -10px;
+			right:20px;
+		}
+
+		svg {
+			fill:$blue;
+			z-index: 10;
+width: 30px;
+height: 40px;
+		}
+
+		svg:hover {
+			fill: $gold;
+		}
+	}
+
+	.display {
+		display: block;
+	}
+
+.h-container {
+	position: relative;
+	width: 100%;
 }
 
 /*!////////////////////////////////////////////////
@@ -124,6 +188,9 @@ nav {
 
 	@media screen and (max-width:1280px) {
 		width: 60%;
+	}
+	@media screen and (max-width:808px) {
+		width: 90%;
 	}
 
 	:before {
@@ -200,6 +267,11 @@ nav {
 		width: 40%;
 	}
 
+		@media screen and (max-width:1011px) {
+		width: 80%;
+	}
+
+
 	:before {
 		width: 100%;
 		position: absolute;
@@ -252,6 +324,14 @@ nav {
 	padding-bottom: 60px;
 	line-height: 20pt;
 
+	@media screen and (max-width:790px) {
+		width: 80%;
+	}
+
+	@media screen and (max-width:441px) {
+		width: 100%;
+	}
+
 	p {
 		margin-bottom: 20px;
 	}
@@ -280,6 +360,11 @@ nav {
 		font-family: $font-body;
 		font-size: em(20px,$font-size);
 		@include prefix(transition, all 0.3s ease-in-out);
+
+		@media screen and (max-width:1196px) {
+			height: 90px;
+		}
+
 	}
 
 	h2 {
@@ -288,6 +373,10 @@ nav {
 		border-bottom: 2px solid $gold;
 		margin-bottom: 20px; 
 		text-align: center;
+
+		@media screen and (max-width:1196px) {
+			margin-top: 40px;
+		}
 	}
 
 	span.long {
@@ -369,6 +458,10 @@ nav {
 		margin: 0 auto;
 		padding: 40px 0;
 
+		@media screen and (max-width:713px) {
+			width: 100%;
+		}
+
 		p {
 			line-height: 20pt;
 		}
@@ -387,6 +480,11 @@ nav {
 	margin: 0 auto;
 	background-color: white;
 	position: relative;
+
+		@media screen and (max-width:876px) {
+		width: 300px;
+		height: 300px;
+	}
 }
 
 .circle-center {
@@ -396,6 +494,13 @@ nav {
 	margin-top: 119.5px;
 	margin-left: -10px;
 	position: relative;
+	@media screen and (max-width:939px) {
+		background-color: transparent;
+	}
+			@media screen and (max-width:939px) {
+		border: none;
+		display: none;
+	}
 }
 
 .circle-horz {
@@ -407,6 +512,10 @@ nav {
 	top: 117.5px;
 	left: -10px;
 	z-index: -1;
+		@media screen and (max-width:939px) {
+		border: none;
+		display: none;
+	}
 }
 
 .circle-1 {
@@ -416,6 +525,9 @@ nav {
 	top: 0;
 	border-right: 2px solid $blue;
 	border-left: 2px solid $blue;
+			@media screen and (max-width:939px) {
+		border: none;
+	}
 }
 
 .circle-2 {
@@ -425,6 +537,9 @@ nav {
 	bottom: 0;
 	border-right: 2px solid $blue;
 	border-left: 2px solid $blue; 
+			@media screen and (max-width:939px) {
+		border: none;
+	}
 }
 
 
@@ -449,6 +564,11 @@ nav {
 	p {
 		font-size: em(18px,$font-size);
 	}
+
+	@media screen and (max-width:876px) {
+		top: 38px;
+		margin-left: -102px;
+	}
 }
 
 
@@ -460,9 +580,20 @@ nav {
 	position: relative;
 	width: 84%;
 	margin: 0 auto;
+		@media screen and (max-width:740px) {
+		width: 100%;
+	}
 	h3 {
 		display: inline-block;
 		position: absolute;
+
+		@media screen and (max-width:740px) {
+			display: block;
+			position: relative;
+			width: 100%;
+			text-align: left;
+			top: 20px;
+		}
 
 		a {
 			display: block;
@@ -483,13 +614,17 @@ nav {
 	}
 }
 
-
 .top {
 	top: 10px;
+
+	@media screen and (max-width:1122px) {
+		top: -40px;
+	}
 }
 
 .left {
 	left: 0;
+
 }
 
 .right {
@@ -500,14 +635,25 @@ nav {
 .middle {
 	top: 145px;
 	text-align: center;
+
+	@media screen and (max-width:1012px) {
+		top: 120px;
+	}
 }
 
 .bottom {
 	bottom: 10px;
+
+	@media screen and (max-width:1122px) {
+		bottom: -40px;
+	}
 }
 
 .full {
 	width: 46%;
+	@media screen and (max-width:1122px) {
+		width: 50%;
+	}
 }
 
 .small {
@@ -516,10 +662,30 @@ nav {
 
 .project {
 	padding-left: 20px;
+
+	@media screen and (max-width:911px) {
+		padding-left: 0;
+	}
 }
 
 .office {
 	padding-right: 20px;
+		@media screen and (max-width:911px) {
+		padding-right: 0;
+	}
+}
+
+.circle-hide {
+	display: none;
+	@media screen and (max-width:740px) {
+		display: block;
+	}
+}
+
+.circle-show h3 a{
+		@media screen and (max-width:740px) {
+		display: none;
+	}
 }
 
 /*!////////////////////////////////////////////////
@@ -541,6 +707,14 @@ nav {
 
 	@media screen and (max-width:1280px) {
 		width: 100%;
+	}
+
+	@media screen and (max-width:1011px) {
+		width: 80%;
+	}
+
+	@media screen and (max-width:651px) {
+		width: 50%;
 	}
 }
 
@@ -609,6 +783,10 @@ nav {
 		color: white;
 		font-size: em(24px,$font-size);
 		padding: 0 80px;
+
+		@media screen and (max-width:845px) {
+			padding:0 10px;
+		}
 
 		span {
 			font-style: italic;
@@ -696,12 +874,51 @@ nav {
 	}
 }
 
+.container {
+	max-width: 100%;
+	width: 1200px;
+	height: auto;
+	margin:  0 auto;
+
+	@media screen and (max-width:900px) {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
 /*!////////////////////////////////////////////////
 // Page
 /////////////////////////////////////////////////*/
 
 .page_content {
 	padding: 40px 0;
+
+	@media screen and (max-width:900px) {
+		padding: 30px 10px;
+	}
+}
+
+.home_content {
+		@media screen and (max-width:900px) {
+		padding: 20px 10px;
+	}
+}
+
+body {
+	@media screen and (max-width:945px) {
+		font-size: 90%;
+	}
+		@media screen and (max-width:800px) {
+		font-size: 80%;
+	}
+}
+
+.grid-half {
+	@media screen and (max-width:750px) {
+		width: 100%;
+		display: block;
+		margin: 20px 0;
+	}
 }
 
 @import "shame.scss";

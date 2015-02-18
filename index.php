@@ -17,12 +17,12 @@
                 </div>
                 <div class="container">
                     <div class="home_circle-wrap">
-                        <h3 class="top left full furniture"><a href="#">Furniture Sales and Setup</a></h3>
-                        <h3 class="top right full transportation"><a href="#">Transportation Logistics</a></h3>
-                        <h3 class="middle left small project"><a href="#">Project Management</a></h3>
-                        <h3 class="middle right small office"><a href="#">Office Relocation</a></h3>
-                        <h3 class="bottom left full warehousing"><a href="#">Warehousing and Distribution</a></h3>
-                        <h3 class="bottom right full data"><a href="#">Data Center and IT Relocation</a></h3>
+                        <div class="circle-show"><h3 class="top left full furniture"><a href="#">Furniture Sales and Setup</a></h3>
+                                                <h3 class="top right full transportation"><a href="#">Transportation Logistics</a></h3>
+                                                <h3 class="middle left small project"><a href="#">Project Management</a></h3>
+                                                <h3 class="middle right small office"><a href="#">Office Relocation</a></h3>
+                                                <h3 class="bottom left full warehousing"><a href="#">Warehousing and Distribution</a></h3>
+                                                <h3 class="bottom right full data"><a href="#">Data Center and IT Relocation</a></h3></div>
                         <div class="circle">
                             <div class="circle-horz"></div>
                             <div class="circle-center">
@@ -34,6 +34,12 @@
                                 <img src="img/handshake.png" alt="Martin CFS">
                             </div>
                         </div>
+                        <div class="circle-hide"><h3 class="top left full furniture"><a href="#">Furniture Sales and Setup</a></h3>
+                                                <h3 class="top right full transportation"><a href="#">Transportation Logistics</a></h3>
+                                                <h3 class="middle left small project"><a href="#">Project Management</a></h3>
+                                                <h3 class="middle right small office"><a href="#">Office Relocation</a></h3>
+                                                <h3 class="bottom left full warehousing"><a href="#">Warehousing and Distribution</a></h3>
+                                                <h3 class="bottom right full data"><a href="#">Data Center and IT Relocation</a></h3></div>
                     </div>
                 </div>
             </div>

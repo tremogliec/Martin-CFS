@@ -27,6 +27,12 @@
                 <div class="container">
                     <div class="logo"><img src="img/martin-cfs-logo.png" alt="Martin CFS"></div>
                     <div class="phone"><h3>717-945-6583</h3></div>
+                    <div class="h-container">
+                    <a href="#" id="pull" class="hamburger"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+<path id="menu-icon" d="M462,163.5H50v-65h412V163.5z M462,223.5H50v65h412V223.5z M462,348.5H50v65h412V348.5z"/>
+</svg></a>
+                    </div>
                     <nav>
                         <a href="/SITES/Martin-CFS/">Home</a><!--
                         --><a href="/SITES/Martin-CFS/office-relocation.php">Office Relocation</a><!--
