@@ -28,14 +28,14 @@
                     <div class="logo"><img src="img/martin-cfs-logo.png" alt="Martin CFS"></div>
                     <div class="phone"><h3>717-945-6583</h3></div>
                     <nav>
-                        <a href="">Home</a>
-                        <a href="">Office Relocation</a>
-                        <a href="">IT/ Data Relocation</a>
-                        <a href="">Furniture Installation</a>
-                        <a href="">Warehousing</a>
-                        <a href="">Transportation</a>
-                        <a href="">About Us</a>
-                        <a href="">Contact</a>
+                        <a href="/SITES/Martin-CFS/">Home</a><!--
+                        --><a href="/SITES/Martin-CFS/office-relocation.php">Office Relocation</a><!--
+                        --><a href="/SITES/Martin-CFS/it-data-relocation.php">IT/ Data Relocation</a><!--
+                        --><a href="/SITES/Martin-CFS/furniture-installation.php">Furniture Installation</a><!--
+                        --><a href="/SITES/Martin-CFS/warehousing-distribution-pa.php">Warehousing</a><!--
+                        --><a href="/SITES/Martin-CFS/transportation.php">Transportation</a><!--
+                        --><a href="/SITES/Martin-CFS/about-us.php">About Us</a><!--
+                        --><a href="/SITES/Martin-CFS/contact.php">Contact</a>
                     </nav>
                 </div>
             </div>

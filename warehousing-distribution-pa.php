@@ -15,14 +15,14 @@
 <div class="grid-system group">
 <div class="container">
 	<div class="grid-half">
-		<h3>Storage, inventory control and distribution</h3>
-		<h3>24 hour monitoring</h3>
-		<h3>Repack and distribution</h3>
+		<span>Storage, inventory control and distribution</span>
+		<span>24 hour monitoring</span>
+		<span>Repack and distribution</span>
 	</div>
 	<div class="grid-half">
-		<h3>Distribution with inside delivery</h3>
-		<h3 class="long">Installation / assembly services at customer’s site</h3>
-		<h3 class="long">Active inventory control; coordination of receiving services</h3>
+		<span>Distribution with inside delivery</span>
+		<span>Installation / assembly services at customer’s site</span>
+		<span class="long">Active inventory control; coordination of receiving services</span>
 	</div>
 	</div>
 </div>

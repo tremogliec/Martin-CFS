@@ -1,0 +1,120 @@
+
+.contact-form {
+  font-family: $font-body, sans-serif;/*Set Font for Form*/
+}
+
+.contact-form > div {
+  width: 100%;
+  margin-bottom: 20px; 
+}
+
+.contact-form  label {
+  width: 100px; /*Set a width for all Lables */
+  display: inline-block; 
+}
+
+.contact-form span {
+  padding: 8px;
+  height: 44px; /*set a fixed height for items */
+  vertical-align: top;
+  border: 2px solid $blue;
+  width: 31px;
+  background-color: $blue;
+  color: white;
+  padding-top: 14px; 
+}
+
+.contact-form input, span.form__title-input {
+  width: 70%; /*Set a Width for all Inputs */
+  padding: 10px;
+  border: 2px solid $blue; 
+  display: inline-block;
+  background-color: white;
+  color: $blue;
+}
+
+span.form__title-input {
+  color: #757575;/*Placeholder dropdown color, use eyedropper to get placeholder color with opacity*/
+}
+
+.contact-form div.captcha input{
+  width: 44%;
+  vertical-align: top;
+}
+
+.contact-form input.submit {
+  width: 73%;
+  margin-left: 100px;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  box-shadow: none;
+  border: 2px solid $blue;
+  background-color: $blue;
+  color: white;
+  -webkit-appearance: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+
+.contact-form input.submit:hover {
+  background-color: white;
+  color: $blue; 
+   border: 2px solid $gold;
+}
+
+.contact-form textarea {
+  width: calc(70% + 34px);
+  height: 175px;
+  padding: 5px;
+  border: 2px solid $blue; 
+}
+
+.contact-form span.form__title-input:hover {
+  cursor: pointer;
+}
+
+.form__dropdown {
+  display: inline-block;
+  height: 44px;
+  width: 100%;
+}
+
+.form__dropdown-container {
+  position: relative;
+}
+
+.dropdown_list {
+  position: absolute;
+  top: 44px;/*adjust as necessary*/
+  left: 160px;/*adjust as necessary*/
+  width: 70%;/*adjust as necessary*/
+}
+
+.form__dropdown-li {
+  padding: 5px 10px;
+  background-color: $blue;
+  border: 2px solid $blue;
+  color: white;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; 
+}
+
+.form__dropdown-li:hover {
+  background-color: white;
+  color: $blue;
+  cursor: pointer;
+}
+
+.form__dropdown-ul {
+  list-style-type: none;
+}
+
+span.active-form-title {
+  color: $blue;
+}
+
+  /*FOR MEDIA QUERIES, BE SURE TO ADJUST WIDTH ELEMENTS */

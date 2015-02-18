@@ -20,7 +20,7 @@ $(document).ready(function() {
 $(".dropdown-container").click(function(){
     $(this).next('p').toggle();
     $(this).toggleClass('svg-rotate');
-    $(this).toggleClass('h3-active');
+    $(this).toggleClass('active');
 });
 
 (function(){

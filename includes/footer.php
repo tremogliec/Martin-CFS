@@ -10,7 +10,7 @@
                     
                     <p>© 2014 MartinCFS All Rights Reserved | Info@martinCFS.com |717-945-6583</p>
 
-                    <p>1038 New Holland Avenue Lancaster, Pa 17601 Building 14</p>
+                    <p>1038 New Holland Avenue Lancaster, PA 17601 Building 14</p>
 
                     <p>Website Design and Development by <a href="http://webtek.cc">WebTek</a></p>
 

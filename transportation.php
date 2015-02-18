@@ -15,15 +15,15 @@
 <div class="grid-system group">
 <div class="container">
 	<div class="grid-half">
-		<h3>Padded Van Service </h3>
-		<h3>General Commodities</h3>
-		<h3>Inside pickup and delivery services</h3>
-		<h3>Climate Control</h3>
+		<span>Padded Van Service </span>
+		<span>General Commodities</span>
+		<span>Inside pickup and delivery services</span>
+		<span>Climate Control</span>
 	</div>
 	<div class="grid-half">
-		<h3>Time Sensitive transportation Services</h3>
-		<h3>Delivery and Installationn</h3>
-		<h3>International Forwarding Services</h3>
+		<span>Time Sensitive transportation Services</span>
+		<span>Delivery and Installationn</span>
+		<span>International Forwarding Services</span>
 	</div>
 	</div>
 </div>
