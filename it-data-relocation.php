@@ -126,14 +126,12 @@
 
 <div class="image-container group">
 <div class="container group"  id="owl-demo2">
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
+	<div class="item"><img src="img/it-relocation-1.jpg" alt="IT Relocation Relocation"></div>
+	<div class="item"><img src="img/it-relocation-2.jpg" alt="IT Relocation Relocation"></div>
+	<div class="item"><img src="img/it-relocation-3.jpg" alt="IT Relocation Relocation"></div>
+	<div class="item"><img src="img/it-relocation-4.jpg" alt="IT Relocation Relocation"></div>
+	<div class="item"><img src="img/it-relocation-5.jpg" alt="IT Relocation Relocation"></div>
+	<div class="item"><img src="img/it-relocation-6.jpg" alt="IT Relocation Relocation"></div>
 </div>
 </div>
 

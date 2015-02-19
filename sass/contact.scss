@@ -11,6 +11,12 @@
 .contact-form  label {
   width: 100px; /*Set a width for all Lables */
   display: inline-block; 
+
+  @media screen and (max-width:953px) {
+    width: 100%;
+    display: block;
+    padding-bottom: 5px;
+  }
 }
 
 .contact-form span {
@@ -22,6 +28,9 @@
   background-color: $blue;
   color: white;
   padding-top: 14px; 
+        @media screen and (max-width:890px) {
+height: 40px;
+  }
 }
 
 .contact-form input, span.form__title-input {
@@ -31,6 +40,9 @@
   display: inline-block;
   background-color: white;
   color: $blue;
+      @media screen and (max-width:890px) {
+width: 85%;
+  }
 }
 
 span.form__title-input {
@@ -56,6 +68,9 @@ span.form__title-input {
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; 
+        @media screen and (max-width:890px) {
+margin-left: 0;
+  }
 }
 
 .contact-form input.submit:hover {
@@ -69,6 +84,9 @@ span.form__title-input {
   height: 175px;
   padding: 5px;
   border: 2px solid $blue; 
+        @media screen and (max-width:890px) {
+width: 100%;
+  }
 }
 
 .contact-form span.form__title-input:hover {

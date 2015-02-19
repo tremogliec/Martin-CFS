@@ -29,14 +29,12 @@
 
 <div class="image-container group">
 <div class="container group"  id="owl-demo2">
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
+	<div class="item"><img src="img/warehouse-1.jpg" alt="Warehouse Distribution PA"></div>
+	<div class="item"><img src="img/warehouse-2.jpg" alt="Warehouse Distribution PA"></div>
+	<div class="item"><img src="img/warehouse-3.jpg" alt="Warehouse Distribution PA"></div>
+	<div class="item"><img src="img/warehouse-4.jpg" alt="Warehouse Distribution PA"></div>
+	<div class="item"><img src="img/warehouse-5.jpg" alt="Warehouse Distribution PA"></div>
+	<div class="item"><img src="img/warehouse-6.jpg" alt="Warehouse Distribution PA"></div>
 </div>
 </div>
 

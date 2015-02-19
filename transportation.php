@@ -30,14 +30,12 @@
 
 <div class="image-container group">
 <div class="container group"  id="owl-demo2">
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-	<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
+	<div class="item"><img src="img/transportation-1.jpg" alt="Martin CFS Transportation"></div>
+	<div class="item"><img src="img/transportation-2.jpg" alt="Martin CFS Transportation"></div>
+	<div class="item"><img src="img/transportation-3.jpg" alt="Martin CFS Transportation"></div>
+	<div class="item"><img src="img/transportation-4.jpg" alt="Martin CFS Transportation"></div>
+	<div class="item"><img src="img/transportation-5.jpg" alt="Martin CFS Transportation"></div>
+	<div class="item"><img src="img/transportation-6.jpg" alt="Martin CFS Transportation"></div>
 </div>
 </div>
 

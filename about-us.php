@@ -24,8 +24,8 @@
 
 <div class="cta container group">
 	<div class="grid-half">
-		<h2>Furniture Sales</h2>
-		<p>Contact us for Furniture Sales information</p>
+		<h2>Contact Martin CFS</h2>
+		<p>We are available to help you move</p>
 		<a href="#">Contact Us</a>
 	</div>
 	<div class="grid-half">
@@ -37,14 +37,12 @@
 
 <div class="image-container group">
 	<div class="container group"  id="owl-demo2">
-		<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-1.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-2.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-3.jpg" alt="Office Relocation"></div>
-		<div class="item"><img src="img/office-relocation-4.jpg" alt="Office Relocation"></div>
+		<div class="item"><img src="img/martin-cfs-1.jpg" alt="Margin CFS"></div>
+		<div class="item"><img src="img/martin-cfs-2.jpg" alt="Margin CFS"></div>
+		<div class="item"><img src="img/martin-cfs-3.jpg" alt="Margin CFS"></div>
+		<div class="item"><img src="img/martin-cfs-4.jpg" alt="Margin CFS"></div>
+		<div class="item"><img src="img/martin-cfs-5.jpg" alt="Margin CFS"></div>
+		<div class="item"><img src="img/martin-cfs-6.jpg" alt="Margin CFS"></div>
 	</div>
 </div>
 

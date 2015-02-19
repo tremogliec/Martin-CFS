@@ -54,3 +54,7 @@ $(window).resize(function(){
         menu.removeAttr('style');  
     }  
 });   
+
+$().ready(function() {
+$("#contactForm").validate();
+});
